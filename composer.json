@@ -1,0 +1,21 @@
+{
+    "name": "doehnert/oauth2-myob",
+    "description": "This package provider MYOB OAuth 2.0 support for the PHP Leagu's OAuth 2.0 Client",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Doehnert\\Oauth2Myob\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elton Doehnert",
+            "email": "eltonfd@gmail.com"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.8"
+    }
+}
